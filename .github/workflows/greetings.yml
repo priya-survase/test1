@@ -20,3 +20,7 @@ jobs:
       run: |
         echo Hello!
         echo Your workflow is running successfully!
+      with:
+        repo-token: ${{ secrets.demo test repo }}
+        issue-message: 'Thanks for the commit'
+        pr-message: 'Your PR will be checked soon!'
