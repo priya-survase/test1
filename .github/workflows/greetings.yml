@@ -24,3 +24,4 @@ jobs:
       run: |
         echo Hello!
         echo Your workflow is running successfully!
+        echo Hello World!
