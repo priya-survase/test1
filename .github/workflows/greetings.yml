@@ -16,7 +16,7 @@ jobs:
       pull-requests: write
     steps:
     - uses: actions/first-interaction@v1
-      with:
-        repo-token: ${{ secrets.demo test repo }}
-        issue-message: 'Thanks for the commit'
-        pr-message: 'Your PR will be checked soon!'
+    - name: Run this Script
+      run: |
+        echo Hello!
+        echo Your workflow is running successfully!
