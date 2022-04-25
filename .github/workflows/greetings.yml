@@ -16,6 +16,10 @@ jobs:
       pull-requests: write
     steps:
     - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.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 }}
+        issue-message: 'Thanks for the commit'
+        pr-message: 'Your PR will be checked soon!'
     - name: Run this Script
       run: |
         echo Hello!
